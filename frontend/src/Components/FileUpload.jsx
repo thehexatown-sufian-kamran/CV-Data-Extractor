@@ -38,14 +38,14 @@ const FileUpload = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
+    <div className="flex justify-center items-center h-screen bg-gray-200">
       <div className="w-96 p-6 bg-white rounded-lg shadow-lg">
         <h1 className="text-xl font-semibold mb-4 text-center">Upload Your Resume</h1>
 
         <input
           type="file"
           onChange={handleFileChange}
-          accept=".pdf"
+          accept=".pdf,.doc,.docx"
           className="block w-full p-2 mb-4 border border-gray-300 rounded text-sm"
         />
 
